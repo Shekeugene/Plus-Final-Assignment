@@ -1,0 +1,100 @@
+body{
+    background-color: black;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+padding-bottom: 15px;
+}
+
+.app-name{
+    margin-bottom: 15px;
+}
+
+input{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    border-color: #d15555;
+}
+
+p, ul, .weather-container{
+ color:#d15555;
+ font-weight: 500;
+ font-size: 17px;
+}
+
+.city-name{
+    color:#d15555;
+    font-weight: 700;
+    font-size: 30px;
+    padding-top: 10px ;
+}
+
+li:first-letter {
+    text-transform: capitalize;
+  }
+
+.weather-temperature strong{
+   font-weight: 500;
+   font-size: 54px;
+   line-height: 1.8;
+   color: #d15555;
+}
+
+.weather-temperature .units{
+    position: relative;
+    font-size: 20px;
+    top: -21px;
+    color: #d15555;
+ }
+
+.signature{
+    color: beige;
+    text-align: center;
+}
+
+.app-name{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.container{
+    margin: 30px auto;
+    max-width: 625px;
+    border: 20px solid #facbd3;
+    border-radius: 10px; 
+    background-color: #facbd3;
+}
+
+.weather-forecast{
+    text-align: center;
+    margin-top: 15px;
+    color: #9268a5;
+}
+
+.weather-forecast-date{
+  font-weight: 500;
+  font-size: 17px;
+  text-align: center;
+}
+
+.weather-forecast-temperature-min {
+    opacity: 0.6;
+  }
+  
+.weather-forecast-temperatures {
+    font-size: 14px;
+}
+
+.eugene-face{
+    display: inline;
+}
+
+
